@@ -7,8 +7,8 @@
 DHT dht(DHTPIN, DHTTYPE);
 WiFiServer server(80);
 
-const char* ssid = "wifi_ssid";
-const char* password = "your_wiki_password";
+const char* ssid = "your_wifi_ssid";
+const char* password = "your_wifi_password";
 const boolean serialPrint = false;
 
 void setup()
